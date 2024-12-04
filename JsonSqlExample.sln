@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonSqlExample.Api", "src\JsonSqlExample.Api\JsonSqlExample.Api.csproj", "{CD7F8C05-7997-46EA-A982-0D59A1ADB63D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "JsonSqlExample.Database", "src\JsonSqlExample.Database\JsonSqlExample.Database.sqlproj", "{AB742F45-66E8-4C86-9786-96DC5F319CCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD7F8C05-7997-46EA-A982-0D59A1ADB63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7F8C05-7997-46EA-A982-0D59A1ADB63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7F8C05-7997-46EA-A982-0D59A1ADB63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7F8C05-7997-46EA-A982-0D59A1ADB63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB742F45-66E8-4C86-9786-96DC5F319CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB742F45-66E8-4C86-9786-96DC5F319CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB742F45-66E8-4C86-9786-96DC5F319CCD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AB742F45-66E8-4C86-9786-96DC5F319CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB742F45-66E8-4C86-9786-96DC5F319CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB742F45-66E8-4C86-9786-96DC5F319CCD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
