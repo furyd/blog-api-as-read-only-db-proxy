@@ -1,0 +1,6 @@
+@JsonSqlExample.Api_HostAddress = http://localhost:5057
+
+GET {{JsonSqlExample.Api_HostAddress}}/orders
+Accept: application/json
+
+###
